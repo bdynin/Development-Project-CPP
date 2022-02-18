@@ -1,0 +1,5 @@
+[database]
+connectionString = "Data Source=localhost; Initial Catalog=inventory; Integrated Security=SSPI;"
+
+[server]
+port = 8000

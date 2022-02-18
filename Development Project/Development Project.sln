@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sparcpoint.Inventory.Database", "Sparcpoint.Inventory.Database\Sparcpoint.Inventory.Database.sqlproj", "{62E57E63-D706-49CF-B2BF-C9BED8189C36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interview.Web", "Interview.Web\Interview.Web.vcxproj", "{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F} = {C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C} = {56CF51E8-FE2E-4DC4-A326-4D5A4700863C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sparcpoint.Core.Lib", "Sparcpoint.Core.Lib\Sparcpoint.Core.Lib.vcxproj", "{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sparcpoint.ProductsHandler.LIb", "Sparcpoint.ProductsHandler.LIb\Sparcpoint.ProductsHandler.LIb.vcxproj", "{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Debug|x64.ActiveCfg = Debug|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Debug|x86.ActiveCfg = Debug|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Debug|x86.Build.0 = Debug|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Debug|x86.Deploy.0 = Debug|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Release|x64.ActiveCfg = Release|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Release|x86.ActiveCfg = Release|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Release|x86.Build.0 = Release|x86
+		{62E57E63-D706-49CF-B2BF-C9BED8189C36}.Release|x86.Deploy.0 = Release|x86
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Debug|x64.ActiveCfg = Debug|x64
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Debug|x64.Build.0 = Debug|x64
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Debug|x86.Build.0 = Debug|Win32
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Release|x64.ActiveCfg = Release|x64
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Release|x64.Build.0 = Release|x64
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Release|x86.ActiveCfg = Release|Win32
+		{C971114F-8AD5-43B4-AFFD-9B68B2FCB44B}.Release|x86.Build.0 = Release|Win32
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Debug|x64.ActiveCfg = Debug|x64
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Debug|x64.Build.0 = Debug|x64
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Debug|x86.Build.0 = Debug|Win32
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Release|x64.ActiveCfg = Release|x64
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Release|x64.Build.0 = Release|x64
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Release|x86.ActiveCfg = Release|Win32
+		{C5D39457-FA04-4B44-A6D2-A44D6D3A1E8F}.Release|x86.Build.0 = Release|Win32
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Debug|x64.ActiveCfg = Debug|x64
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Debug|x64.Build.0 = Debug|x64
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Debug|x86.ActiveCfg = Debug|Win32
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Debug|x86.Build.0 = Debug|Win32
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Release|x64.ActiveCfg = Release|x64
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Release|x64.Build.0 = Release|x64
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Release|x86.ActiveCfg = Release|Win32
+		{56CF51E8-FE2E-4DC4-A326-4D5A4700863C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A24A6A91-6536-44B7-8B18-A17B862A1D25}
+	EndGlobalSection
+EndGlobal

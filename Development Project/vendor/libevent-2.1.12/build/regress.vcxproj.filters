@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress.gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_bufferevent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_dns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_et.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_finalize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_listener.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_minheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_rpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_testutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\tinytest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_iocp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress.gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\test\regress_testutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\build\CMakeFiles\dbd885523b42e1f21e389bd200f3218d\regress.gen.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D23DDAC8-07BA-3D2F-8A46-4C92C0187710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF53C937-47DA-3219-912E-C2F6FBB4C288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0B5900E0-BE26-335A-A03D-09DC2B5C5CDB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

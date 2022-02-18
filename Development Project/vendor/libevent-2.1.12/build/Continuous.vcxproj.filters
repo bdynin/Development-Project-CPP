@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\build\CMakeFiles\40e59f3ce4ea2f367c4e22b8d2de1a9e\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\WTS-v18.1.x\WTS\Modules\3rdParty\libevent-2.1.12-stable\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D23DDAC8-07BA-3D2F-8A46-4C92C0187710}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
